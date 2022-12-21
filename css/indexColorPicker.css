@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #333;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h2,
+h3 {
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+.inputs {
+    margin: 5px;
+}
+
+.button {
+    margin: 5px;
+}
+
+.colors {
+    margin: 5px;
+    display: flex;
+}
+
+.color1,
+.color2 {
+    margin: 5px;
+    background-color: #fff;
+    height: 300px;
+    width: 220px;
+    border-radius: 5px;
+    border: white solid 5px;
+}
+
+.btn {
+
+    color: white;
+    background-color: #333;
+    border: solid white 2px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.my-turn {
+    border: solid 5px yellow;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
